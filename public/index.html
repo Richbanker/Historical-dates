@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>Исторические даты</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="stage-wrap">
+  <div class="stage">
+    <i class="vline l1"></i>
+    <i class="vline l2"></i>
+    <i class="vline l3"></i>
+    <i class="hline"></i>
+
+    <div class="content">
+      <h1 class="title">Исторические<br>даты</h1>
+
+      <div class="years">
+        <div class="year-left" id="yearL">2015</div>
+        <div class="year-right" id="yearR">2022</div>
+      </div>
+
+      <div class="circle"></div>
+
+      <div class="orbit" id="orbit">
+        <div class="badge"><span id="badgeNum">1</span></div>
+      </div>
+      <div class="badge-label" id="label">Наука</div>
+
+      <div class="hotspots" id="hotspots" aria-label="Переход по шагам"></div>
+
+      <div class="pager"><div class="x" id="pager">01/06</div></div>
+      <div class="nav" aria-label="Навигация">
+        <button class="btn" id="prev" aria-label="Назад">
+          <svg viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 13L1 7L7 1" stroke="#42567A" stroke-width="2"/></svg>
+        </button>
+        <button class="btn" id="next" aria-label="Вперёд">
+          <svg viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 13L7 7L1 1" stroke="#42567A" stroke-width="2"/></svg>
+        </button>
+      </div>
+
+      <div class="cards" id="cards"></div>
+
+      <button class="next" id="jump" aria-label="Далее">
+        <svg viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 9L5 5L1 1" stroke="#3877EE" stroke-width="2"/></svg>
+      </button>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
+
