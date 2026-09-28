@@ -1,5 +1,8 @@
 # Исторические даты — блок по ТЗ
 
+
+[![Просмотры README](https://vbr.nathanchung.dev/badge?page_id=Richbanker.Historical-dates&text=README_Views)](https://github.com/Richbanker/Historical-dates)
+
 ## Стек
 - TypeScript
 - SCSS (Sass)
