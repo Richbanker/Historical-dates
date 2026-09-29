@@ -7,6 +7,7 @@ export default {
   output: {
     path: path.resolve(process.cwd(), "dist"),
     filename: "assets/bundle.[contenthash].js",
+    publicPath: process.env.GITHUB_ACTIONS ? "/Historical-dates/" : "/",
     clean: true
   },
   devtool: "source-map",
@@ -36,4 +37,3 @@ export default {
     new MiniCssExtractPlugin({ filename: "assets/main.[contenthash].css" })
   ]
 };
-
