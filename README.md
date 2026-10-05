@@ -1,9 +1,11 @@
 # Исторические даты — блок по ТЗ
 
+[Открыть публичное демо](https://richbanker.github.io/Historical-dates/)
+
 
 [![Просмотры README](https://vbr.nathanchung.dev/badge?page_id=Richbanker.Historical-dates&text=README_Views)](https://github.com/Richbanker/Historical-dates)
 
-[Открыть проект](https://rebrand.ly/richbanker-dates)
+[Репозиторий — счётчик переходов](https://rebrand.ly/richbanker-dates)
 
 ## Стек
 - TypeScript
