@@ -74,6 +74,7 @@ function tween({ from = 0, to = 1, duration = 600, update, done }:
 function setActiveDot(step: number){
   document.querySelectorAll<HTMLButtonElement>(".hotdot").forEach((el,i)=>{
     el.classList.toggle("is-active", i===step);
+    el.setAttribute("aria-current", i===step ? "step" : "false");
   });
 }
 
