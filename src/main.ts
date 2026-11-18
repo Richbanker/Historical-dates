@@ -267,6 +267,9 @@ function init(){
 
   let wheelLock = false;
   document.addEventListener("wheel", e=>{
+    const target = e.target;
+    if (!(target instanceof Element) || !target.closest(".stage")) return;
+    if (e.deltaY === 0 || Math.abs(e.deltaX) > Math.abs(e.deltaY)) return;
     if (wheelLock) return;
     wheelLock = true;
     if (e.deltaY > 0) next(); else prev();
