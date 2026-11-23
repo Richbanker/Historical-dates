@@ -79,5 +79,6 @@ body{margin:0;background:#fff;font-family:"PT Sans",system-ui,-apple-system,Sego
 
 @media (prefers-reduced-motion:reduce){
   .orbit,.circle{transition:none !important}
+  .reveal-1,.reveal-2,.reveal-3,.reveal-4,.reveal-5{animation:none !important}
 }
 
